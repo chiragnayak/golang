@@ -1,0 +1,37 @@
+basics:
+=======
+
+go build : compiles a bunch of go source code files
+go run   : compiles and executes one or two files
+go fmt   : formats all code in each file in current directory
+go install : compiles and "installs" a package
+go get   : Downloads raw source code of someone else's package
+go test  : runs any tests associated with the current project
+
+
+
+package : 
+==========
++ a project or workspace
++ collection of comon source ocode files.
++ can have many related files.
++ all files ends with .go
++ all files must declare the package it belongs to
+
+Types of packages:
+=================
+
+- executable
+ + generates a file we can run
+ + specifically word "main" is used to create executable type package
+ (when we run main.exe that is generated after executing "go build", function named "main" would be automatically run)
+ + package "main" must have a function by name "main"
+ + 
+
+- resuable
+ + code used as helpers 
+ + good place to keep reusable logic
+ + package creates with any other name apart from "main" creates a re-usable package
+ + 
+
+
