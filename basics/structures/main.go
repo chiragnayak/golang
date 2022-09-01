@@ -69,8 +69,14 @@ func main() {
 	fmt.Println("&jim >>> ", &jim)               // expected to print memory address, but printes object values itself. Feature of fmt ??
 	fmt.Println("jim_pointer >>> ", jim_pointer) // expected to print memory address, but printes object values itself. Feature of fmt ??
 	jim_pointer.updateName("jimmy bro")
-
 	jim.print()
+
+	/*pointer shortcut
+
+	call directly using the varauble name.. that is representing */
+	jim.updateName("jimmy II bro")
+	jim.print()
+
 }
 
 // *person >>> variable that can receive a memory address. Basically, pointer to a type (here it is "person")
