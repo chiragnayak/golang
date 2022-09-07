@@ -74,7 +74,7 @@ func main() {
 	/*pointer shortcut
 
 	call directly using the varauble name.. that is representing */
-	jim.updateName("jimmy II bro")
+	jim.updateName("jimmy II	 bro")
 	jim.print()
 
 }
